@@ -1,0 +1,172 @@
+{
+  "destination": "Cebu, Philippines",
+  "dates": "September 4–7, 2026",
+  "days": [
+    {
+      "day": 1,
+      "date": "September 4, 2026",
+      "theme": "Arrival Day - City Intro",
+      "activities": [
+        {
+          "id": 1,
+          "activity": "Arrival at Mactan-Cebu International Airport",
+          "desc": "Arrive at 2 PM. Grab a ride to Cebu City (~45 min, traffic-dependent).",
+          "position": [10.3136, 123.9834]
+        },
+        {
+          "id": 2,
+          "activity": "Check-in & Snacks at La Parisienne",
+          "desc": "Drop bags and freshen up. Grab merienda at La Parisienne on Gorordo Ave. Interchangeable with check-in order.",
+          "position": [10.3262, 123.8982]
+        },
+        {
+          "id": 3,
+          "activity": "Magellan's Cross & Basilica del Sto. Niño",
+          "desc": "Quick heritage walk. Open 8 AM–6 PM. Wear covered bottoms - no shorts allowed.",
+          "position": [10.2936, 123.9020]
+        },
+        {
+          "id": 4,
+          "activity": "Dinner at The Pig & Palm or Rico's Lechon",
+          "desc": "The Pig & Palm is great for an upscale first-night treat. Rico's Lechon for the classic Cebu experience.",
+          "position": [10.3129, 123.9045]
+        },
+        {
+          "id": 5,
+          "activity": "Evening Stroll at Ayala Center Cebu",
+          "desc": "Window shop, grab coffee, or just unwind. Open until 9–10 PM. Good low-key first night activity.",
+          "position": [10.3182, 123.9052]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "date": "September 5, 2026",
+      "theme": "Adventure Day - Hills & Heritage",
+      "activities": [
+        {
+          "id": 6,
+          "activity": "Breakfast near Airbnb",
+          "desc": "Fuel up early. Try Sugbo Mercado or a local carinderia.",
+          "position": [10.3182, 123.9052]
+        },
+        {
+          "id": 7,
+          "activity": "Casa Gorordo Museum",
+          "desc": "Well-preserved Spanish colonial ancestral house. Open 9 AM–5 PM (closed Sundays). Air-conditioned, ₱100 entry. ~1 hour.",
+          "position": [10.2999, 123.9049]
+        },
+        {
+          "id": 8,
+          "activity": "Sky Experience Adventure",
+          "desc": "Rooftop thrills at Crown Regency. Opens 2 PM on weekdays. Alternative: Carbon Market area for local culture.",
+          "position": [10.3079, 123.8941]
+        },
+        {
+          "id": 9,
+          "activity": "Lunch at Bell+Amadeus",
+          "desc": "Highly rated restaurant (4.8★). Opens 11 AM. Reserve ahead for a great sit-down lunch.",
+          "position": [10.3283, 123.9090]
+        },
+        {
+          "id": 10,
+          "activity": "TOPS Cebu - Panoramic Viewpoint",
+          "desc": "Open 24/7. Arrange private transport or habal-habal - Grab won't go uphill. Arrive by 5 PM for golden hour.",
+          "position": [10.3706, 123.8709]
+        },
+        {
+          "id": 11,
+          "activity": "Dinner at Top of Cebu Restaurant",
+          "desc": "Dine at the restaurant right inside TOPS while the city lights come on below. Filipino dishes.",
+          "position": [10.3707, 123.8709]
+        },
+        {
+          "id": 12,
+          "activity": "Carbon Night Market",
+          "desc": "Open Fri–Sun 4–11 PM. Sept 5 is a Friday - perfect timing! Street food, live band, local energy.",
+          "position": [10.2912, 123.8995]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "date": "September 6, 2026",
+      "theme": "South Cebu Day - Ocean & Mall",
+      "activities": [
+        {
+          "id": 13,
+          "activity": "Breakfast & Check Out of City Airbnb",
+          "desc": "Pack bags before heading out. You'll move to a Mactan-area Airbnb tonight to be near the airport.",
+          "position": [10.3182, 123.9052]
+        },
+        {
+          "id": 14,
+          "activity": "Temple of Leah",
+          "desc": "Open 7 AM–10 PM. Greco-Roman monument with sweeping Cebu City views. ~1–1.5 hrs. Private transport needed.",
+          "position": [10.3689, 123.8733]
+        },
+        {
+          "id": 15,
+          "activity": "Lunch at Punkoy-Punkoy",
+          "desc": "Your planned lunch stop. Head back towards the south side of the city near Ocean Park and SM Seaside.",
+          "position": [10.3110, 123.9003]
+        },
+        {
+          "id": 16,
+          "activity": "Cebu Ocean Park",
+          "desc": "Open 10 AM–6 PM, last entry ~4 PM. ~2 hours. Don't miss the bird show and fish feeding. Buy on Klook for discounts.",
+          "position": [10.2812, 123.8786]
+        },
+        {
+          "id": 17,
+          "activity": "Dinner at SM Seaside Area",
+          "desc": "Many dining options in and around SM Seaside. Eat before heading into the mall.",
+          "position": [10.2823, 123.8813]
+        },
+        {
+          "id": 18,
+          "activity": "SM Seaside City Cebu",
+          "desc": "Open until 10 PM on Saturdays. Circular mall with rooftop garden and sea views. Great for pasalubong and souvenirs.",
+          "position": [10.2823, 123.8813]
+        },
+        {
+          "id": 19,
+          "activity": "Transfer to Mactan Airbnb",
+          "desc": "~20–30 min from SM Seaside to Mactan. Settle in for your last night.",
+          "position": [10.3136, 123.9834]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "date": "September 7, 2026",
+      "theme": "Rest & Departure",
+      "activities": [
+        {
+          "id": 20,
+          "activity": "Rest & Breakfast",
+          "desc": "Sleep in and enjoy a slow morning. Already near the airport so no rush. Mactan Newtown is nearby for a leisurely walk.",
+          "position": [10.3079, 124.0132]
+        },
+        {
+          "id": 21,
+          "activity": "Optional: Mactan Shrine",
+          "desc": "Free entry, open from 5 AM. Only 10–15 min from the airport. Quick last activity if you have the energy.",
+          "position": [10.3108, 124.0153]
+        },
+        {
+          "id": 22,
+          "activity": "Lunch near Airport",
+          "desc": "UNO at Waterfront Airport Hotel has a buffet, or try Island Central Mactan mall (~5 min away).",
+          "position": [10.3167, 123.9779]
+        },
+        {
+          "id": 23,
+          "activity": "Departure at Mactan-Cebu International Airport",
+          "desc": "Be at the airport by 1:00–1:15 PM for a 3 PM flight. Check-in and security takes 30–45 mins.",
+          "position": [10.3136, 123.9834]
+        }
+      ]
+    }
+  ]
+}

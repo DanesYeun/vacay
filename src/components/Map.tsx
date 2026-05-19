@@ -1,13 +1,15 @@
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css';
-import data from "../server/data/Itenerary.json";
+import type { Activity } from '../server/types/Itinerary.types';
 
-const Map = () => {
+type Props = {
+    activity: Activity[]
+}
+const Map = ({activity}: Props) => {
     const position: [number, number] = [10.31323, 123.922523];
 
     return(
-        <>
-        <div className="h-150 md:h-full w-full border rounded">
+        <div className="h-[90vh] shadow-lg">
             <MapContainer 
                 center={position} 
                 zoom={12} 
@@ -18,7 +20,7 @@ const Map = () => {
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 />
                 
-                {data.map((place) => (
+                {activity.flat().map((place) => (
                     <Marker
                     key={place.id}
                     position={place.position as [number, number]}
@@ -31,8 +33,8 @@ const Map = () => {
                     </Marker>
                 ))}
             </MapContainer>
+            
         </div>
-        </>
     )
 }
 
