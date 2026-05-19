@@ -1,13 +1,15 @@
-import Mainpage from './pages/Mainpage'
+import { BrowserRouter } from "react-router-dom"
+import Layout from "./layout/Layout"
+import HomeRouter from "./navigation/router/HomeRouter"
 
 function App() {
 
 	return (
-		<>
-			<div className='flex items-center justify-center w-screen h-screen'>
-				<Mainpage/>
-			</div>
-		</>
+		<BrowserRouter basename="/vacay">
+			<Layout>
+				<HomeRouter />
+			</Layout>
+		</BrowserRouter>
 	)
 }
 
