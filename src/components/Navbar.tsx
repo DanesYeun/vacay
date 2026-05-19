@@ -1,4 +1,4 @@
-import { Link, Route } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { RoutePath } from "../navigation/config/RouteConfig";
 
 const Navbar = () => {
