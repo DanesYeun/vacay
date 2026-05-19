@@ -1,0 +1,33 @@
+[
+    {
+        "id": 1,
+        "activity": "Arrival at Mactan-Cebu Airport",
+        "desc": "Grab a ride (~45 min to Cebu City proper, traffic-dependent)",
+        "position": [10.3133, 123.9792]
+    },
+    {
+        "id": 2,
+        "activity": "Check-in & snacks (interchangeable)",
+        "desc": "Drop bags, freshen up. Grab merienda nearby — La Parisienne on Gorordo Ave is a great cozy café option.",
+        "position": [10.3133, 123.9792]
+    },
+    {
+        "id": 3,
+        "activity": "Magellan's Cross & Basilica del Sto. Niño",
+        "desc": "Quick heritage walk. Open until 6–7 PM. Good intro to Cebu history. Wear covered bottoms (no shorts).",
+        "position": [10.2933, 123.9019]
+    },
+    {
+        "id": 4,
+        "activity": "The Pig & Palm or local lechon",
+        "desc": "The Pig & Palm (upscale, near IT Park) is excellent for first-night treat. Or try Rico's Lechon for the Cebu classic.",
+        "position": [10.3180, 123.9056]
+    },
+    {
+        "id": 5,
+        "activity": "Ayala Center Cebu",
+        "desc": "Stroll around, window shop, or grab coffee. Open until 9–10 PM. Good low-key first night activity.",
+        "position": [10.3176, 123.9053]
+    }
+
+]
