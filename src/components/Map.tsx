@@ -9,7 +9,7 @@ const Map = ({activity}: Props) => {
     const position: [number, number] = [10.31323, 123.922523];
 
     return(
-        <div className="h-[90vh] shadow-lg">
+        <div className="h-[50vh] md:h-[90vh] shadow-lg">
             <MapContainer 
                 center={position} 
                 zoom={12} 
