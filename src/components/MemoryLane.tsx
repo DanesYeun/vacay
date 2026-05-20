@@ -1,7 +1,6 @@
 import memories from '../server/data/Memories.json';
 
 const MemoryLane = ({}) => {
-    const base = import.meta.env.BASE_URL;
 
     return (
         <div className="min-h-screen bg-white rounded shadow-lg p-6">
