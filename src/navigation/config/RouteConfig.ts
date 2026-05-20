@@ -1,5 +1,6 @@
 // route enums
 export const RoutePath = {
     Home: '/',
-    Itenerary: '/itenerary'
+    Itenerary: '/itenerary',
+    Memories: 'memories'
 };
