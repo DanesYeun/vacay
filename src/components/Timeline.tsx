@@ -17,8 +17,7 @@ const Timeline = ({dayItinerary, activity}: Props) => {
     })}`
 
     return (
-        <>
-        <div className="h-full m-2 shadow rounded bg-white">
+        <div className="p-2 shadow rounded bg-white">
             <div className="p-2 flex justify-center gap-4">
                 <div className="flex justify-center items-center">
                     <div className="badge badge-soft badge-info">{formatted}</div>
@@ -59,7 +58,6 @@ const Timeline = ({dayItinerary, activity}: Props) => {
                       
             </ul>
         </div>
-        </>
     )
 }
 

@@ -14,6 +14,7 @@ const Home = () => {
                     <p className="mb-5 text-5xl">
                         Ysa & Danes' collection of memories
                     </p>
+                    <button className='btn btn-outline btn-primary'>Go to memory lane</button>
                 </div>
             </div>
         </div>
