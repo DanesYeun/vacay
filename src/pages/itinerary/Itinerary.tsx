@@ -10,21 +10,26 @@ const Itenerary = () => {
     let dayItinerary = itinerary.days[Number(day)]
 
     return(
-        <div className="flex flex-col gap-2">
-            <Map activity={dayItinerary.activities}/>
-            <div className="flex items-center justify-center px-2 w-full h-full">
-                <select 
-                    className="select" 
-                    id="day" 
-                    value={day}
-                    onChange={(e) => setDay(e.target.value)}
-                >
-                    {days.map((day, index) => (
-                        <option key={day.id} value={index}>{day.name}</option>
-                    ))}
-                </select>
+        <div className="grid grid-flow-row md:grid-cols-3 gap-2 p-2">
+            <div className="p-2 flex flex-col gap-2 order-2 md:order-1">
+                <div className="flex items-center justify-center px-2">
+                    <select 
+                        className="select" 
+                        id="day" 
+                        value={day}
+                        onChange={(e) => setDay(e.target.value)}
+                    >
+                        {days.map((day, index) => (
+                            <option key={day.id} value={index}>{day.name}</option>
+                        ))}
+                    </select>
+                </div>
+                <Timeline dayItinerary={dayItinerary} activity={dayItinerary.activities}/>
             </div>
-            <Timeline dayItinerary={dayItinerary} activity={dayItinerary.activities}/>
+
+            <div className="col-span-2 order-1 md:order-2">
+                <Map activity={dayItinerary.activities}/>
+            </div>  
         </div>
     )
 }
