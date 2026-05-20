@@ -1,6 +1,9 @@
 import hero from '../../assets/images/hero.jpg';
 
 const Home = () => {
+    const handleClick = () => {
+        alert("Work in progress!")
+    }
 
     return (
         <div
@@ -14,7 +17,12 @@ const Home = () => {
                     <p className="mb-5 text-5xl">
                         Ysa & Danes' collection of memories
                     </p>
-                    <button className='btn btn-outline btn-primary'>Go to memory lane</button>
+                    <button 
+                        className='btn btn-outline btn-primary'
+                        onClick={handleClick}
+                    >
+                        Go to memory lane
+                    </button>
                 </div>
             </div>
         </div>
